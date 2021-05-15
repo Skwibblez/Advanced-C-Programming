@@ -1,0 +1,4 @@
+
+
+//I had a lot of problems with this assignment. I did my best to implement the functions. I know that calling GetPixelR(image,x,y) that saying "image" is wrong but I hope you can look at the logic behind it rather than its actually functionality. Then I couldn't properly implement the Makefile but I did my best to do so. I also still don't understand how the libraries work for the Makefile. The Makefile I have is from the solutions on the last homework but I attempted to add the new functionalities to it. 
+You will notice that during the script absoltely nothing runs or compiles but I hope that I can earn some points back based on the part where I implement functions even though they don't compile/run.

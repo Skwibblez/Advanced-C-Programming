@@ -1,0 +1,1 @@
+//for the assignment I implemented most of the functions asides from spotlight. I ran out of time despite the time extension and I was pretty sad. I'm stil getting used to the quarter system. I didn't know how to compile some of the programs and I know that it had a few errors. Nonethless I tried my best. I also didn't remember how to make the makefile for clean part.

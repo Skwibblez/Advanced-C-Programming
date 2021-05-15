@@ -1,0 +1,2 @@
+
+Problems I had with this assignment was only the Debugging part. I looked all over the lecture slides and online but I wasn't able to figure it out. I understand I should've went to the office hours. However, I understand that what I needed to do was add some logic to PhotoLab.c so that certain statements would run while the program was in debugging mode. To do this I would have to somehow define DEBUG in the makefile( which I didnt know how to do) and then depending on if it was the Test or normal version; it would run with or without the debugging parts. 

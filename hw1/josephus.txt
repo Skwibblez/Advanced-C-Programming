@@ -1,0 +1,12 @@
+My program answers Josephus problem. It checks for who is alive, then checks every other person and determines if they are alive or dead.
+I also had a counter, numKillers which counted the number of people who were essentially alive after the first round because everyone is a
+killer sfter the first round. Then decremented by one each time a killer/"alive person" died. Finally I terminate the while loop when there is 
+only one killer left ( numKiller == 1). 
+
+
+
+I also completed the extra credit which prints out the maximum number of kills an individual has. This was implemented
+by using the value of the element itself in the array as a counter. So in my array if circle[ 1 ] = 5, then that means he has 5 kills. 
+However, I implemented this at the end so it doesnt quite do it correctly. I had to correct the kill count at the very end in order for it to 
+output the correct number. Also the very last if statement is for the specific case of 1 person because it is the least amount of people
+and it didnt follow my logic correctly.

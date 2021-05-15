@@ -1,0 +1,77 @@
+Script started on Sat 09 Dec 2017 05:51:51 PM PST
+]0;hyfong@zuma:~/hw5[hyfong@zuma ~/hw5]$ Makefile
+Makefile: Command not found.
+]0;hyfong@zuma:~/hw5[hyfong@zuma ~/hw5]$ make MovieLab
+gcc -ansi -Wall -c MovieLab.c -o MovieLab.o
+MovieLab.c: In function ‘main’:
+MovieLab.c:114: error: expected expression before ‘/’ token
+MovieLab.c:125: error: expected expression before ‘/’ token
+MovieLab.c:128: error: ‘p’ undeclared (first use in this function)
+MovieLab.c:128: error: (Each undeclared identifier is reported only once
+MovieLab.c:128: error: for each function it appears in.)
+MovieLab.c:139: error: expected expression before ‘/’ token
+MovieLab.c:147: error: expected expression before ‘/’ token
+MovieLab.c:151: error: ‘movie’ undeclared (first use in this function)
+MovieLab.c:154: warning: initialization from incompatible pointer type
+MovieLab.c:158: error: ‘intFnum’ undeclared (first use in this function)
+MovieLab.c:166: error: expected expression before ‘/’ token
+MovieLab.c:175: warning: implicit declaration of function ‘strcomp’
+MovieLab.c:179: warning: assignment from incompatible pointer type
+MovieLab.c:185: error: invalid initializer
+MovieLab.c:206: error: request for member ‘Frames’ in something not a structure or union
+MovieLab.c:206: error: request for member ‘First’ in something not a structure or union
+MovieLab.c:206: warning: assignment from incompatible pointer type
+MovieLab.c:215: error: expected expression before ‘;’ token
+MovieLab.c:215: warning: assignment makes integer from pointer without a cast
+MovieLab.c:237: error: ‘watermarkImage’ undeclared (first use in this function)
+MovieLab.c:237: error: request for member ‘W’ in something not a structure or union
+MovieLab.c:237: error: invalid operands to binary % (have ‘int’ and ‘char *’)
+MovieLab.c:237: warning: initialization makes integer from pointer without a cast
+MovieLab.c:238: error: request for member ‘H’ in something not a structure or union
+MovieLab.c:238: error: invalid operands to binary % (have ‘int’ and ‘char *’)
+MovieLab.c:238: warning: initialization makes integer from pointer without a cast
+MovieLab.c:240: error: request for member ‘Frames’ in something not a structure or union
+MovieLab.c:240: error: request for member ‘First’ in something not a structure or union
+MovieLab.c:240: warning: assignment from incompatible pointer type
+MovieLab.c:241: warning: assignment from incompatible pointer type
+MovieLab.c:245: error: ‘myCounter’ undeclared (first use in this function)
+MovieLab.c:248: warning: passing argument 2 of ‘Watermark’ from incompatible pointer type
+DIPs.h:26: note: expected ‘const struct IMAGE *’ but argument is of type ‘char *’
+MovieLab.c:250: warning: assignment from incompatible pointer type
+MovieLab.c:253: error: expected expression before ‘/’ token
+MovieLab.c:253: warning: statement with no effect
+MovieLab.c:255: error: request for member ‘H’ in something not a structure or union
+MovieLab.c:255: error: invalid operands to binary % (have ‘int’ and ‘char *’)
+MovieLab.c:255: warning: assignment makes integer from pointer without a cast
+MovieLab.c:256: warning: statement with no effect
+MovieLab.c:156: warning: unused variable ‘frameCounter’
+MovieLab.c:133: warning: unused variable ‘aHeight’
+MovieLab.c:53: warning: unused variable ‘height’
+MovieLab.c:52: warning: unused variable ‘width’
+MovieLab.c: In function ‘LoadMovie’:
+MovieLab.c:381: error: too many arguments to function ‘CreateMovie’
+make: *** [MovieLab.o] Error 1
+]0;hyfong@zuma:~/hw5[hyfong@zuma ~/hw5]$ MovieLab -h
+MovieLab: Command not found.
+]0;hyfong@zuma:~/hw5[hyfong@zuma ~/hw5]$ MovieLab -o[Ki mouse.yuv -o out.yuv -f 50 -s 480x270 -aging -h[Khflip
+MovieLab: Command not found.
+]0;hyfong@zuma:~/hw5[hyfong@zuma ~/hw5]$ MovieLab -i mouse.yuv -o out.yuv -f 50 -s 480x270 -edu[Kge
+MovieLab: Command not found.
+]0;hyfong@zuma:~/hw5[hyfong@zuma ~/hw5]$ MovieLab -i mouse.yuv -o out.yuv -f 50 -s 480x270 -fast 3 -crop 10-40
+MovieLab: Command not found.
+]0;hyfong@zuma:~/hw5[hyfong@zuma ~/hw5]$ MovieLab -i mouse.yuv -o out.yuv -f 50 -s 480x280[K[K70 -spotlight
+MovieLab: Command not found.
+]0;hyfong@zuma:~/hw5[hyfong@zuma ~/hw5]$ MovieLab -i mouse.yuv -o out.yuv -f 50 -s 480x270 -spotlight[K[K[K[K[K[K[K[K[Kwatermark watermark
+MovieLab: Command not found.
+]0;hyfong@zuma:~/hw5[hyfong@zuma ~/hw5]$ -[KMovieLab -o mouse.yuv.[K -o out.yuv- f 50 -s 480x270 -reverse
+MovieLab: Command not found.
+]0;hyfong@zuma:~/hw5[hyfong@zuma ~/hw5]$ MovieLab -io[K M[Kmouse.yuv -o out.yuv -f 100 -s 480x28[K70 -zoom
+MovieLab: Command not found.
+]0;hyfong@zuma:~/hw5[hyfong@zuma ~/hw5]$ cle[K[K[Kclean
+clean: Command not found.
+]0;hyfong@zuma:~/hw5[hyfong@zuma ~/hw5]$ make clean
+rm -f *.o *.a  
+]0;hyfong@zuma:~/hw5[hyfong@zuma ~/hw5]$ exit
+exit
+
+Script done on Sat 09 Dec 2017 05:55:05 PM PST

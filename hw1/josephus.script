@@ -1,0 +1,23 @@
+Script started on Wed 11 Oct 2017 02:43:16 PM PDT
+]0;hyfong@zuma:~/hw1[hyfong@zuma ~/hw1]$ ls
+[0m[01;32mj[0m  [01;32mjosephus[0m  josephus.c  josephus.txt  typescript
+[m]0;hyfong@zuma:~/hw1[hyfong@zuma ~/hw1]$ lsexitgcc josephus.c -ansi -std=c99 -Wall -o josephus[22G[37P./[32G[22G[37@gcc josephus.c -ansi -std=c99 -Wall -o [69G
+]0;hyfong@zuma:~/hw1[hyfong@zuma ~/hw1]$ ./josephus
+How many people in the circle?1
+You entered 1
+The spot 1 is safe
+Most executions by an individual is : 0
+]0;hyfong@zuma:~/hw1[hyfong@zuma ~/hw1]$ ./josephus
+How many people in the circle?5
+You entered 5
+The spot 3 is safe
+Most executions by an individual is : 2
+]0;hyfong@zuma:~/hw1[hyfong@zuma ~/hw1]$ ./josephus
+How many people in the circle?22
+You entered 22
+The spot 13 is safe
+Most executions by an individual is : 4
+]0;hyfong@zuma:~/hw1[hyfong@zuma ~/hw1]$ exit
+exit
+
+Script done on Wed 11 Oct 2017 02:44:21 PM PDT

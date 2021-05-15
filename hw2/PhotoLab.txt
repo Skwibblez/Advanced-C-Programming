@@ -1,0 +1,6 @@
+Program does exactly what I was asked to do; it flips the picture when vflip is called, it mirrors the image in half when vmirror is called ... and so on..
+The hardest part for me was getting started because the sheer amount of functions I had to work on was quite a lot. There was also 200 lines of source code so
+I was overwhelmed. I also had trouble manipulating the 2D arrays but eventually I got the hang of it. The hardest function I had to do would be the shuffle. It
+was implemented this way because it was actually the easiest way done. First I generated a random number, then I would use that to determine which section of the original picture
+I would copy into the temporary array's first section. The sections were also counted vertically rather than vertically like the picture displayed on the PDF. As for the other functions
+it just fell in place after lots of debugging.

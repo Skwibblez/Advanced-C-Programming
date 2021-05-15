@@ -1,0 +1,13 @@
+Script started on Wed 22 Nov 2017 05:35:54 PM PST
+]0;hyfong@zuma:~/hw4[hyfong@zuma ~/hw4]$ make
+make: *** No rule to make target `for', needed by `kefile'.  Stop.
+]0;hyfong@zuma:~/hw4[hyfong@zuma ~/hw4]$ ./PhotoLab
+./PhotoLab: Command not found.
+]0;hyfong@zuma:~/hw4[hyfong@zuma ~/hw4]$ valgrind --leak-check=full PhotoLabTest
+valgrind: PhotoLabTest: command not found
+]0;hyfong@zuma:~/hw4[hyfong@zuma ~/hw4]$ make clean
+rm -f *.o *.jpg PhotoLab PhotoLabTest bw.ppm negative.ppm colorfilter.ppm edge.ppm vflipflip.ppm shuffle.ppm vmirror.ppm border.ppm noise.ppm sharpen.ppm posterize.ppm blur.ppm libFilter.a libFileIO.a
+]0;hyfong@zuma:~/hw4[hyfong@zuma ~/hw4]$ exit
+exit
+
+Script done on Wed 22 Nov 2017 05:36:43 PM PST
